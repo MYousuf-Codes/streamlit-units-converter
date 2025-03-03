@@ -6,18 +6,12 @@
 
 ## 📌 Features
 
-✅ **User Authentication** – Secure login & password hashing.  
-✅ **Real-Time Unit Conversion** – Supports multiple categories & conversions.  
-✅ **Conversion History** – Logged-in users can track & export their past conversions.  
-✅ **Guest Mode** – Allows limited conversions without login.  
-✅ **Database Export** – Users & conversion history can be exported in JSON format.  
-✅ **.gitignore** – Prevents sensitive files from being pushed to GitHub.  
-
----
-
-## 📂 Project Structure
-📦 Unit-Converter-App │── 📜 README.md # Project documentation │── 📜 .gitignore # Prevents sensitive files from being pushed │── 📜 requirements.txt # List of dependencies │── 📜 main.py # Core application logic │── 📜 authentication.py # User authentication & security functions │── 📜 units_conversion.py # Unit conversion logic │── 📜 database.py # Database setup & query execution
-
+- ✅ **User Authentication** – Secure login with password hashing.  
+- ✅ **Real-Time Unit Conversion** – Supports multiple categories & conversions.  
+- ✅ **Conversion History** – Logged-in users can track & export past conversions.  
+- ✅ **Guest Mode** – Allows limited conversions without login.  
+- ✅ **Database Export** – Users & conversion history can be exported in JSON format.  
+- ✅ **Secure `.gitignore`** – Prevents sensitive files from being pushed to GitHub.  
 
 ---
 
@@ -30,24 +24,43 @@
 
 ---
 
-## How to Run this Project
+## 🚀 Getting Started
 
-1️⃣ **Clone the Repository**
-git clone https://github.com/YOUR_USERNAME/Unit-Converter-App.git
-cd Unit-Converter-App
+### 1️⃣ Clone the Repository
 
-2️⃣ **Install Dependencies**
+```sh
+git clone https://github.com/MYousuf-Codes/streamlit-units-converter.git
+cd streamlit-units-converter
+```
+
+2️⃣ Install Dependencies
+```sh
 pip install -r requirements.txt
+```
 
-3️⃣ **Run the Application**
-streamlit run main.py
+3️⃣ Run the Application
+```sh
+streamlit run app.py
+```
 
-📄 **License**
+📂 Project Structure
+```sh
+📁 streamlit-units-converter
+│── 📄 app.py                # Main application file
+│── 📄 authentication.py      # Handles user authentication
+│── 📄 database.py            # Database operations (SQLite)
+│── 📄 units_conversion.py    # Unit conversion logic
+│── 📄 requirements.txt       # Required dependencies
+│── 📄 .gitignore             # Files to exclude from Git tracking
+│── 📄 README.md              # Project documentation
+```
+
+### 📄 License
 This project is open-source under the MIT License.
 
-⭐ **Show Your Support**
-If you found this project useful, give it a ⭐ on GitHub!
+### ⭐ Show Your Support
+If you found this project useful, please consider starring ⭐ the repository on GitHub!
 
-🔗**Contact**
-📧 Email: yousufhere.dev@gmail.com
-👔 LinkedIn: [MYousuf-Codes](https://linkedin.com/in/MYousuf-Codes)
+### 🔗 Contact
+- **📧 Email**:  yousufhere.dev@gmail.com
+- **📧 LinkedIn**:  [MYousuf-Codes](https://linkedin.com/in/myousuf-codes)
