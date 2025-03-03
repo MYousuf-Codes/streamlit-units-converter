@@ -1,0 +1,12 @@
+# Ignore JSON export files
+database_export.json
+
+# Ignore SQLite database files (if you don’t want to push them)
+*.db
+
+# Ignore compiled Python files
+__pycache__/
+*.pyc
+
+# Ignore environment files
+.env
